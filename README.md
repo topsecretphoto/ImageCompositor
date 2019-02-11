@@ -1,0 +1,2 @@
+# ImageCompositor
+Image compositing software written in C++ and utilizing OpenImageIO designed to take any user defined pair of green screen images and a user defined background image to recreate the opening scene from Star Wars Episode 4 - A New Hope. The composited animation is displayed for the viewer on screen in real time, and there is also the option to write each image out as an individual file so that the animation could be compiled in video editing software as an image sequence.
