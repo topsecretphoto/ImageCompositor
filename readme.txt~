@@ -1,0 +1,35 @@
+﻿
+	***** Dan Hale - CPSC 6040 - Clemson University - 11.2.17 *****
+
+	Welcome to "Dan's Magnificent Matrix Multiplier!" *working title
+
+	The purpose of this program is to read in an image and warp it based on 	user input
+	values to produce a desired effect.
+
+	***** 
+
+	To compile:
+
+	make warper
+
+	To run the program at the command line:
+
+	./warper inputImageName.png outputImageName.png(if desired)
+
+
+	*****
+
+	After entering the program, the following options are available:
+
+	r - rotate - counter clockwise rotation about image origin, θ in degrees
+	s - scale 
+	t - translate
+	h - shear
+	f - flip - if fx = 1 flip horizontally, fy = 1 flip vertically
+	p - perspective warp
+	w - twirl warp (will not carry over any previous selections)
+	d - done 
+
+	If you wish to write out the current image file, give the new file name as 	a command line argument.
+
+
